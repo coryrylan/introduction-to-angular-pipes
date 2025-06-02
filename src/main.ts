@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import 'zone.js';
 import { EllipsisPipe } from './ellipsis.pipe';
 
 @Component({
