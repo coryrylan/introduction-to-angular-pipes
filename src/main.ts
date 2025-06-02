@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { EllipsisPipe } from './ellipsis.pipe';
+import 'zone.js';
 
 @Component({
   selector: 'app-root',
